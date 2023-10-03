@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: orangered;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+nav li {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
+.Link {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  justify-content: center;
+  display: flex;
+  margin-top: 15px;
+}
